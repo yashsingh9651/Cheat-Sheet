@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cheat-Sheet/static/css/main.1fe61b17.css",
+    "main.js": "/Cheat-Sheet/static/js/main.c696f3c1.js",
+    "index.html": "/Cheat-Sheet/index.html",
+    "main.1fe61b17.css.map": "/Cheat-Sheet/static/css/main.1fe61b17.css.map",
+    "main.c696f3c1.js.map": "/Cheat-Sheet/static/js/main.c696f3c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fe61b17.css",
+    "static/js/main.c696f3c1.js"
+  ]
+}

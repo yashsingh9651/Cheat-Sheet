@@ -70,11 +70,11 @@ export const Home = () => {
                 &#60;Routes&#62;
                 <br />
                 &#60;Route exact path ="/"
-                element=&#123;&#60;Home&#62;&#125;&#62;
+                element=&#123;&#60;Home&#62;&#125;/&#62;
                 <br />
-                &#60;Routes&#62;
+                &#60;/Routes&#62;
                 <br />
-                &#60;BrowserRouter&#62;
+                &#60;/BrowserRouter&#62;
               </div>
             </div>
           </div>
@@ -86,18 +86,6 @@ export const Home = () => {
               <div className="install">npx tailwindcss init</div>
               <div className="import">
                 content: &#91; "./src/**/*.&#123;js,jsx,ts,tsx&#125;", &#93;,
-              </div>
-              <div className="material">
-                &#60;BrowserRouter basename='/GitHub_Apllication_Name' &#62;
-                <br />
-                &#60;Routes&#62;
-                <br />
-                &#60;Route exact path ="/"
-                element=&#123;&#60;Home&#62;&#125;&#62;
-                <br />
-                &#60;Routes&#62;
-                <br />
-                &#60;BrowserRouter&#62;
               </div>
             </div>
           </div>
@@ -163,8 +151,6 @@ export const Home = () => {
               <h2>Add in top in Package.json</h2>
               <div className="material">
                 "homepage": "https://myusername.github.io/my-app",
-                <br />
-                npm install --save gh-pages
               </div>
               <h2>Open Terminal</h2>
               <div className="material">npm install --save gh-pages</div>
@@ -174,7 +160,7 @@ export const Home = () => {
                 <br />
                 "deploy": "gh-pages -d build",
                 <br />
-                "tailwindcss" : "postcss tailwind.css -o public/app.css",
+                "tailwindcss" : "postcss tailwind.css -o src/index.css",
               </div>
               <h2>Open Terminal</h2>
               <div className="install">
@@ -185,7 +171,7 @@ export const Home = () => {
                 const plugins = &#91;require&#40;"tailwindcss"&#41;&#93;; <br />
                 module.exports = &#123;plugins:plugins&#125;;
               </div>
-              <h2>Create File tailwind.css and Paste Below Content and Also Content of index.css File</h2>
+              <h2>Create File tailwind.css and Paste Below Content and Also Content of src/index.css File and delete the content from src/index.css</h2>
               <div className="install">
                 @tailwind base;
                 <br />
@@ -193,8 +179,9 @@ export const Home = () => {
                 <br />
                 @tailwind utilities;
               </div>
-              <h2>Now Link app.css File to index.html file in Public Folder and delete index.css File and Remove import from index.js File</h2>
+              <h2>Open Terminal</h2>
               <div className="material">
+                npm run tailwindcss <br />
                 npm run deploy
               </div>
             </div>
